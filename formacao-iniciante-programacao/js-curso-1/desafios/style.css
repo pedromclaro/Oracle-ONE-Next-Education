@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(136,167,113,1) 200%);
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Press Start 2p';
+    font-size: 2rem;
+    padding: 0 1rem 0 1rem;
+    color: #D68E37;
+}
+
+p {
+    font-family: 'Space Mono';
+    max-width: 600px;
+    padding: 1rem;
+}
+
+#secao_contato {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#secao_contato img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.233);
+}
+
+#secao_contato #nome_links {
+    text-align: center;
+}
+
+#secao_contato #nome_links h4 {
+    font-family: 'Press Start 2p';
+    font-size: 1.5rem;
+    color: #82B1B3;
+}
+
+#secao_contato #nome_links i {
+    margin-top: 1rem;
+    font-size: 2.3rem;
+    color: #82B1B3;
+}
+
+
+
