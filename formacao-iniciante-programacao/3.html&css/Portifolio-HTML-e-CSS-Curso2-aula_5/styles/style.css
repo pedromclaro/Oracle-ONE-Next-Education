@@ -98,7 +98,7 @@ body {
     transition: ease-in-out 0.1s;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     box-shadow: 0 0 15px var(--cor-secundaria);
 }
 
